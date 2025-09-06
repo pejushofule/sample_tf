@@ -46,7 +46,7 @@ resource "snowflake_database" "aor_db" {
 }
 
 
-
+#creating a schema in the database above.
 resource "snowflake_schema" "aor_schema" {
   database = snowflake_database.aor_db.name
   name     = "AOR_db_SCHEMA"
