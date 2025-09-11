@@ -36,7 +36,7 @@ variable "pwd" {
 
 resource "snowflake_database" "lizzy_db" {
   name    = "LIZZY"
-  comment = "I love you"
+  comment = "Thanks for creating"
 }
 
 
